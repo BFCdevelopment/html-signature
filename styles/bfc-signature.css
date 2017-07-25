@@ -1,0 +1,66 @@
+/* Grid */
+.section {
+	clear: both;
+	padding: 0px;
+	margin: 0 0 10px 0;
+}
+.column {
+	display: block;
+	float: left;
+	min-height: 1px; 
+}
+.container {
+	box-sizing: border-box;
+	max-width: 1000px;
+	margin: 0 auto;
+	padding: 0 20px;
+	width: 100%;
+}
+.row:before,
+.row:after {
+	content: "";
+    display: table ;
+    clear: both; 
+}
+
+.ten {
+	width: 78%;
+	padding: 0 0 0 32px;
+}
+.two {
+	width: 18%;
+	border-right: 1px solid #cdcdcd;
+}
+@media only screen and (max-width: 414px) {
+	.column { 
+		margin: 1% 0 1% 0%;
+	}	
+	.container {
+		width: 95%;
+	}
+	.ten,
+	.two {
+		width: 100%; 
+	}
+}
+/* styles */
+h3	{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 600;
+	color: #222859;
+}
+h6	{
+	font-family: 'Montserrat', sans-serif;
+	font-weight: 400;
+	color: #222859;
+}
+img {
+    border-radius: 50%;
+    margin-top: 16px;
+}
+.fa {
+	color: #2AB3B8;
+}
+span {
+	padding: 0 16px 0 0;
+}
