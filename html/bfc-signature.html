@@ -1,26 +1,137 @@
 <!DOCTYPE html>
 <head>
 	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
-	<link rel="stylesheet" type="text/css" href="../styles/bfc-signature.css">
+	<!-- <link rel="stylesheet" type="text/css" href="../styles/bfc-signature.css"> -->
 	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,600" rel="stylesheet">
+	<style media="screen">
+		/* Grid */
+		.section {
+			clear: both;
+			padding: 0px;
+			margin: 0 0 10px 0;
+		}
+		.column {
+			display: block;
+			float: left;
+			min-height: 1px;
+		}
+		.container {
+			box-sizing: border-box;
+			max-width: 1000px;
+			margin: 0 auto;
+			padding: 0 20px;
+			width: 100%;
+		}
+		.row:before,
+		.row:after {
+			content: "";
+				display: table ;
+				clear: both;
+		}
+
+		.ten {
+			width: 35%;
+			padding: 0 0 0 32px;
+		}
+		.two {
+			width: 12%;
+			border-right: 1px solid #cdcdcd;
+		}
+		@media only screen and (max-width: 414px) {
+			.column {
+				margin: 1% 0 1% 0%;
+			}
+			.container {
+				width: 95%;
+			}
+			.ten,
+			.two {
+				width: 100%;
+			}
+		}
+		/* styles */
+		.second {
+			margin-top: 48px;
+		}
+		h1, h3, h4, p	{
+			font-family: 'Montserrat', sans-serif;
+			color: #222859;
+			margin: 8px 0 8px 0;
+		}
+		h1 {
+			font-size: 1.5em;
+		}
+		h3, h4 {
+			font-weight: 600;
+		}
+		p	{
+			font-weight: 400;
+			font-size: 12px
+		}
+		.profile p {
+			margin: 16px 0 16px 0;
+		}
+		.no-profile h4 {
+			margin: 0 0 4px 0;
+			/*font-size: 14px;*/
+		}
+		.no-profile p {
+			font-size: 12px;
+			/*margin: 4px 0 8px 0;*/
+		}
+		.no-profile img {
+			height: 110px;
+			width: 110px;
+			margin: 16px 0 16px 0;
+		}
+		.no-profile span img {
+			height: 30px;
+			width: 30px;
+			margin: 0px 0 0px 0;
+		}
+		.circle {
+			border-radius: 50%;
+			margin-top: 16px;
+		}
+		.muppet {
+			height: 150px;
+			width: 150px;
+		}
+		.logo {
+			height: 30px;
+	    width: 100px;
+			color: #222859;
+		}
+		.no-profile .logo {
+			height: 30px;
+	    width: 100px;
+			margin: 0 0 8px 0;
+		}
+		.fa {
+			color: #2AB3B8;
+		}
+		span {
+			padding: 0 16px 0 0;
+		}
+	</style>
 </head>
 <body>
-<div class="container">
-	<div class="row">
-		<div class="two column">
-			<img src="../images/IMG_6167-1.jpg">
+  <div class="container">
+    <div class="row second no-profile">
+			<div class="two column">
+				<img src="https://bfcsupport.com/wp-content/uploads/2016/09/cropped-favicon-00-template-150x150.png">
+			</div>
+			<div class="ten column">
+				<img class="logo" src="https://bfcsupport.com/wp-content/uploads/2017/07/BFC-support-logo.png">
+				<h4>Ben Freda</h4>
+				<p>President and Founder, BFC Support</p>
+				<p>555.555.5555 | www.bfcsupport.com | Free Consultation</p>
+				<span><a href="#"><img src="https://bfcsupport.com/wp-content/uploads/2017/07/BFCS-EmailSigs-LInkedIn.png" alt=""></a></i></span>
+				<span><a href="#"><img src="https://bfcsupport.com/wp-content/uploads/2017/07/BFCS-EmailSigs-Twitter.jpg" alt=""></a></i></span>
+				<span><a href="#"><img src="https://bfcsupport.com/wp-content/uploads/2017/07/BFCS-EmailSigs-Facebook.jpg" alt=""></a></i></span>
+			</div>
 		</div>
-		<div class="ten column">
-			<h3>Ben Freda</h3>
-			<h6>President and Founder, BFC Support</h6>
-			<h6>555.555.5555 | www.bfcsupport.com | Free Consultation</h6>
-			<span><a href="#"><i class="fa fa-linkedin-square fa-2x"></a></i></span>
-			<span><a href="#"><i class="fa fa-twitter-square fa-2x"></a></i></span>
-			<span><a href="#"><i class="fa fa-facebook-square fa-2x"></a></i></span>	
-		</div>
-	</div>
-</div>
-
-
+  </div>
 </body>
