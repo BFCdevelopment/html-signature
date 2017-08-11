@@ -1,4 +1,4 @@
 # exclude everything except directory ./bfc-signature.html
 /*
-../*
-!./bfc-signature.html
+!/.gitignore
+!/html/bfc-signature.html
