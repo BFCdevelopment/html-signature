@@ -1,3 +1,4 @@
 # exclude everything except directory ./bfc-signature.html
     /*
+    ../*
     !./bfc-signature.html
